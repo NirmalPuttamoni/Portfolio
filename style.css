@@ -157,9 +157,11 @@
     padding: 2.4rem;   
     position: relative;
     transition: all 0.25s ease;
+    line-height: 1.5;
 }
 
 .project-box h2{
+    font-size: 2rem;
     color: var(--primary);
     margin-bottom: 1rem;
 }
@@ -223,4 +225,7 @@ a{
 }
 a:hover{
     color: var(--primary);
+}
+p{
+    font-size: 1rem;
 }
