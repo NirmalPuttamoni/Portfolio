@@ -12,8 +12,7 @@
 
 .header-section1{
     background-color: black;
-    display: flex;
-    padding-top: 1.2rem;
+    padding: 1.5rem;
 }
 
 .header-section1 img{
@@ -107,7 +106,12 @@
     width: 40%;
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 0;
+}
+
+.section-one-left img{
+    width: 300px;
+    padding-left: 1.5rem;
 }
 
 .section-one-right{
@@ -157,9 +161,11 @@
     padding: 2.4rem;   
     position: relative;
     transition: all 0.25s ease;
+    line-height: 1.5;
 }
 
 .project-box h2{
+    font-size: 2rem;
     color: var(--primary);
     margin-bottom: 1rem;
 }
@@ -183,7 +189,7 @@
 /* section three */
 
 .section-three{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 5rem 15rem;
     font-size: 1.2rem;
 }
@@ -223,4 +229,8 @@ a{
 }
 a:hover{
     color: var(--primary);
+}
+
+p{
+    font-size: 1rem;
 }
