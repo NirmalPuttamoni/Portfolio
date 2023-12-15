@@ -230,6 +230,9 @@ a{
 a:hover{
     color: var(--primary);
 }
+p{
+    font-size: 1rem;
+}
 
 p{
     font-size: 1rem;
