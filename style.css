@@ -104,14 +104,15 @@
 .section-one-left{
     /* border: 1px solid black; */
     width: 40%;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     padding: 2rem 0;
 }
 
 .section-one-left img{
     width: 300px;
-    padding-left: 1.5rem;
+    padding-left: 2rem;
+    margin-left: 11.5rem;
 }
 
 .section-one-right{
